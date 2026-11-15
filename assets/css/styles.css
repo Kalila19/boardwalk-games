@@ -64,6 +64,48 @@ h2 {
 #services .card {
   margin-bottom: 1.5rem;
 }
+
+/* Game library cards */
+
+#new-games .card, #fav-games .card {
+  border: none;
+}
+
+#new-games .card-footer, #fav-games .card-footer {
+  background-color: transparent;
+  border-top: none;
+}
+
+/* footer / contact */
+
+#contact {
+  background-color: var(--primary-color);
+  color: white;
+  padding-bottom: 3rem;
+}
+
+#contact h2 {
+  color: white;
+}
+#contact .sub-heading-color {
+  color: var(--highlight-color-light);
+}
+/* needed to target the svg element because of the conversion of the elements from HTML by Javascript  */
+#contact svg {
+  color: var(--secondary-color);
+  font-size: 1.2rem;
+  margin-right: 15px
+}
+
+#contact .social-links svg{
+  color: var(--highlight-color-light);
+  font-size: 1.9rem;
+  transition: color 0.3s ease-in-out;
+}
+
+#contact .social-links svg:hover {
+  color: var(--secondary-color);
+}
 /* grid visualisation CSS for testing 
 
 .container, .row {
