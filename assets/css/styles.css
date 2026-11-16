@@ -64,6 +64,8 @@ h2 {
   background-color: var(--highlight-color);
   color: white;
 }
+
+
 /* Navbar */
 #navbar {
   background-color: var(--primary-color);
@@ -87,6 +89,20 @@ h2 {
 
 #services .card {
   margin-bottom: 1.5rem;
+}
+
+/* Join our events */
+
+#events h2{
+  text-transform: uppercase;
+}
+
+#events .table {
+  font-size: 0.7rem;
+}
+
+ .student-discount {
+        font-size: 0.8rem;
 }
 
 /* Game library cards */
@@ -134,7 +150,7 @@ h2 {
 #contact .table-dark * {
   background-color: transparent;
 }
-/* grid visualisation CSS for testing 
+/* grid visualisation CSS for testing
 
 .container, .row {
   border: 2px solid black;
@@ -143,9 +159,19 @@ h2 {
 .col-12 {
   border: 2px solid white;
   background-color: lightgray;
-}*/
+} */
 
 /* Media queries */
+
+/* Small screens and up */
+@media screen and (min-width: 576px) {
+    /* increase font size in events table when screen size is large enough */
+
+    #events .table {
+  font-size: 1rem;
+}
+
+}
 
 /* Medium devices (tablets <= 768px */
 
@@ -154,6 +180,10 @@ h2 {
   #services .card-body {
     min-height: 191px;
   }
+
+   .student-discount {
+        font-size: 1rem;
+    }
 }
 
 @media screen and (min-width: 992px) {
@@ -176,3 +206,4 @@ h2 {
     min-height: 195px;
   }
 }
+
