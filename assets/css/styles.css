@@ -27,6 +27,7 @@ h3 {
 h1 h2 {
   text-transform: uppercase;
 }
+
 h2 {
   margin-bottom: 2rem;
 }
@@ -105,6 +106,10 @@ h2 {
         font-size: 0.8rem;
 }
 
+#reserve h2 {
+  text-transform: uppercase;
+}
+
 /* Game library cards */
 
 #new-games .card, #fav-games .card {
@@ -150,7 +155,7 @@ h2 {
 #contact .table-dark * {
   background-color: transparent;
 }
-/* grid visualisation CSS for testing
+ /* grid visualisation CSS for testing 
 
 .container, .row {
   border: 2px solid black;
