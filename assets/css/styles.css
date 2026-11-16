@@ -15,6 +15,8 @@
 /* Global styles can be re-used in different sections*/
 body {
   font-family: var(--primary-font);
+  padding-top: 57.24px;
+  /* pushes the top of the header down fixed navbar */
 }
 
 h1,
